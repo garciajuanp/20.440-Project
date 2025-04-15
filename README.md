@@ -4,7 +4,7 @@
 This repository contains code and data needed to reproduce a heatmap figure from my 20.440 project. The heatmap shows statistically significant ligand–receptor interactions within cardiomyocyte (CM) monoculture, inferred using CellPhoneDB.
 
 ## Data
-The dataset used here was generated using CellPhoneDB with input from a single-cell RNA-seq dataset of iPSC-derived cardiomyocytes. For replicating the heatmap of signficant interactions between cells in the CM Monoculture the only file needed is CellphoneDB_Results/CM/statistical_analysis_pvalues_04_07_2025_191005.txt.
+The dataset used here was generated using CellPhoneDB with input from a single-cell RNA-seq dataset of iPSC-derived cardiomyocytes. For replicating the heatmap of signficant interactions between cells in the CM Monoculture the only file needed is CellphoneDB_Results/CM/statistical_analysis_pvalues_04_07_2025_191005.txt. After finding this file, run the jupyter notebook to get the heatmap figure.
 
 ## Folder Structure
 - `code/`: contains the notebook used to generate the figure
